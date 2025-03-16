@@ -1,0 +1,69 @@
+.container-fluid{
+  width: 90%;
+  max-width: 400px;
+  border-radius: 20px;
+  margin:80px auto 0;
+  background: linear-gradient(to bottom, #33ccff 0%, #66ffcc 100%);
+  padding:30px;
+  text-align: center;
+}
+.search{
+  width:100%;
+  display:block;
+  align-items:center;
+}
+.search input{
+  border-radius:35px;
+  background:#FFF8DC;
+  color:black;
+  padding:10px;
+  width:200px;
+  flex:1
+}
+.search button{
+  border-block:50px;
+  cursor:pointer;
+  
+}
+.search button img{
+  width:16px;
+ 
+}
+.weather{
+  padding:30px;
+}
+.cloud{
+  width:190px;
+  height:200px;
+  mix-blend-mode:multiply;
+}
+.temp{
+  font-size:80px;
+  font-weight:500;
+}
+.details{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+  margin-top:50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img{
+  margin-right: 10px;
+  mix-blend-mode:multiply;
+}
+.weather{
+  display:none;
+}
+.error{
+  text-align:left;
+  margin-left:10px;
+  font-size:14px;
+  margin-top:10px;
+  display:none
+}
